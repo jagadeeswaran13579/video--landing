@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+
+<body>
+    <form>
+        <lable>first name:</lable>
+        <input type="text" required><br>
+        <lable>second name:</lable>
+        <input type="text"><br>
+        <lable>password:</lable>
+        <input type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"><br>
+                <lable>contact number:</lable>
+        <input type="number" required><br>
+        <lable>age:</lable>
+        <input type="number"><br>
+        <lable>gender:</lable>
+        <input type="radio">male
+        <input type="radio">female
+        <input type="radio">transgender<br>
+        <lable>country:</lable>
+        <input type="checkbox">indian
+        <input type="checkbox">forigners<br>
+        <lable>state:</lable>
+        <select>
+            <option>choose your state</option>
+            <option>tamil nadu</option>
+            <option>karnataka</option>
+            <option>kerala</option>
+            <option>andhra pradesh</option>
+        </select><br>
+        <label>email:</label>
+        <input type="email" required><br>
+        <lable>website:</lable>
+        <input type="url"><br>
+        <br>
+        <br>
+        <button>submit</button>
+
+
+</body>
+
+</html>
